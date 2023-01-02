@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand my-2 text-success" href="#home">Mehmet Salih Tuzcu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#aboutme">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#skills">My Skills</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#workplace">Workplace Learning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- navbar end  -->
+
+<!-- home -->
+
+<div class="container-fluid bg-gray align-items-center my-3 py-5 d-flex order-2 order-lg-1 " id="home" >
+    <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-8 text-lg-left text-center mt-5">
+        <h3>Computer Programming Student</h3>
+        <h1>Mehmet Salih Tuzcu</h1>
+        <p>Web Development student at 
+        <a class="text-success" href="https://www.thomasmore.be/" target="_blank">Thomas More University of Applied Sciences</a>  in Antwerp, Belgium</p>
+
+      </div>
+      <div class="col-8 offset-2 col-lg-4  offset-lg-0 order-1 order-lg-2 mt-5">
+    <img class="img-fluid  w-100 profiel" src="./portfolio copy/profielfoto.jpg" alt="Photo">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- home end -->
+
+  <!-- aboutme -->
+
+<div class="container-fluid text-center pt-5" id="aboutme">
+<div class="container">
+<h2 class="mb-5 font-weight-bold">Who am I ?</h2>
+<hr>
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        About Me
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>I am Mehmet Salih Tuzcu. I'm from Turkey. I have been living in Belgium for 3 years.</p> <p> I learned Dutch language at the University of Antwerp.</p>
+        <p>I was born and raised in Turkey. I studied Law in Izmir for 3 years.</p>
+        <p>Last year I followed an online ICT course. The name of the course is <a class="text-success" href="https://clarusway.com/" target="_blank">Clarusway</a>.  I learned new things about computer programming in this bootcamp.</p>
+        <p>I am interested in technology and I would like to learn new programming languages in  <a class="text-success" href="https://www.thomasmore.be/opleidingen/graduaat/programmeren-dag-avondonderwijs/programmeren-dagonderwijs/antwerpen-0" target="_blank">Graduaat Programmeren Thomas More Hogeschool</a> </p> 
+        <p>Check out my old version portfolio : <a class="text-success" href="https://www.salihtuzcu.be/" target="_blank">No Bootstrap Portfolio</a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Other Websites I made
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <!-- <img src="./underconstruction.jpg" class="d-block w-100" alt="Under Construction"> -->
+        <a href="./portfolio copy/index.html" target="_blank">Old Version Portfolio</a>
+        <a href="./Responsive Themasite copy/index.html" target="_blank">Responsive Themasite</a>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Languages
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Turkish : Native <br> 
+        Dutch : Intermediate <br>
+        English : Intermediate <br>
+        French : Elementary <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+<!-- aboutme end -->
+
+
+
+  <!-- Skills -->
+
+
+  <div class="container-fluid text-center pt-5 my-5" id="skills">
+    <div class="container">
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a class="text-success" href="#home">Home</a></li>
+          <li class="breadcrumb-item"><a class="text-success" href="#aboutme">About Me</a></li>
+          <li class="breadcrumb-item active" aria-current="page">My Skills</li>
+        </ol>
+      </nav>
+
+      <h2 class="mb-5 font-weight-bold">My Skills</h2>
+      <hr>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">HTML</h6>
+              <h6 class="font-weight-bold">70%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">CSS</h6>
+              <h6 class="font-weight-bold">60%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">PostGresql</h6>
+              <h6 class="font-weight-bold">60%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-dark" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">Bootstrap</h6>
+              <h6 class="font-weight-bold">55%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">Java</h6>
+              <h6 class="font-weight-bold">55%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 55%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">Linux</h6>
+              <h6 class="font-weight-bold">45%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 45%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">Javascript</h6>
+              <h6 class="font-weight-bold">35%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill mb-4">
+            <div class="d-flex justify-content-between">
+              <h6 class="font-weight-bold">React</h6>
+              <h6 class="font-weight-bold">0%</h6>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 0%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Skills end -->
+
+<!-- Projects -->
+
+<div class="container-fluid text-center pt-5" id="projects">
+<div class="container">
+    <h2 class="mb-5 font-weight-bold">My Projects</h2>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 mb-5">
+    <div class="col h-75">
+    <div class="card" >
+        <img src="https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw" class="card-img-top" alt="google-landing">
+        <div class="card-body">
+          <h5 class="card-title">Google Landing Project</h5>
+          <hr>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col">
+        <div class="card" >
+            <img src="https://blog.vantagecircle.com/content/images/2019/04/blog5.png" class="card-img-top" alt="survey-project">
+            <div class="card-body">
+              <h5 class="card-title">Survey Project Clarusway</h5>
+              <hr>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+    <div class="card" >
+        <img src="https://www.webtekno.com/images/editor/default/0003/47/9081c992ca8b6f9fd55a9f36c6f5fae08ed5f57f.jpeg" class="card-img-top" alt="java-project">
+        <div class="card-body">
+          <h5 class="card-title">Java Project</h5>
+          <hr>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-5 ">
+    <div class="col">
+    <div class="card" >
+        <img src="https://i0.wp.com/actbennington.org/wp-content/uploads/2015/08/speed-networking.jpg?resize=640%2C420&ssl=1" class="card-img-top" alt="speeddating">
+        <div class="card-body">
+          <h5 class="card-title">Workplace Speeddating Event Project</h5>
+          <hr>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+    <div class="card" >
+            <img src="https://cdn.thenewstack.io/media/2022/06/1270f621-600b72f9-react-1024x680-1.png" class="card-img-top" alt="react">
+            <div class="card-body">
+              <h5 class="card-title">React Project</h5>
+              <hr>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+    <div class="card" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK--kTYxKB8IyL0sYkEMj3EXc5cydnuJZMWw&usqp=CAU" class="card-img-top" alt="parallax">
+              <div class="card-body">
+              <h5 class="card-title">Parallax Website Project</h5>
+              <hr>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+
+
+<!--* Toast did not appear and I couldn't find a solution -->
+<!-- <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-body">
+    New projects will be added here, make sure!
+    <div class="mt-2 pt-2 border-top">
+      <button type="button" class="btn btn-success btn-sm" data-bs-dismiss="toast">Close</button>
+    </div>
+  </div>
+</div>
+-->
+
+</div>
+
+
+
+<!-- Projects end -->
+
+
+<!-- Workplace -->
+
+
+<div class="container-fluid text-center pt-5" id="workplace">
+  <div class="container">
+      <h2 class="mb-5 font-weight-bold">Workplace Learning</h2>
+      <hr>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active height1" data-bs-interval="5000">
+            <img src="./underconstruction.jpg" class="d-block w-100" alt="Under Construction">
+          </div>
+          <div class="carousel-item height1" data-bs-interval="5000">
+            <img src="./underconstruction2.jpg" class="d-block w-100" alt="Under construction">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </div>
+</div>     
+
+
+<!-- workplace end -->
+
+
+<!-- contact -->
+
+
+<div class="container-fluid text-center pt-5 mb-5" id="contact">
+  <div class="container">
+    <h2 class="mb-5 font-weight-bold text-success">Contact</h2>
+    <!-- <hr> -->
+  <form>
+    <div class="row justify-content-center">
+      <div class=" col col-md-7 justify-content-center">
+      <div class="mb-3 ">
+        <label for="exampleInputName1" class="form-label">Name</label>
+        <input type="text" class="form-control" id="exampleInput1" >
+      </div>
+      <div class="mb-3 ">
+        <label for="exampleInputSurname1" class="form-label">Surname</label>
+        <input type="text" class="form-control" id="exampleInput2" >
+      </div>
+    
+    <div class="row">
+      <div class="mb-3 ">
+        <label for="" class="form-label">Country</label>
+        <select class="form-select " aria-label="Default select example">
+            <option selected>Belgium</option>
+            <option value="1">Turkey</option>
+            <option value="2">Netherlands</option>
+            <option value="3">USA</option>
+            <option value="3">Canada</option>
+            <option value="3">Germany</option>
+            <option value="3">Other</option>
+          </select>
+      </div>
+    </div>
+
+    <div class="mb-3 ">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+
+    
+  
+
+  <div class="mb-3 ">
+    <label for="exampleFormControlTextarea1" class="form-label">Any comments or suggestions? </label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter your comment here... Thanks for your suggestions" ></textarea>
+  </div>
+
+
+</div>
+</div>
+<button type="submit" class="btn btn-success">Submit</button>
+
+</form>
+
+</div>
+</div>
+
+
+<!-- contact end -->
+
+
+<!-- footer -->
+
+
+<footer class="container-fluid bg-dark text-center text-white py-3 mt-5" id="footer">
+  
+  <div class="container p-4 pb-0">
+    
+    <section class="mb-4">
+
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-facebook"></i
+    ></a>
+
+      
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/"target="_blank" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+      ><i class="fab fa-instagram"></i
+    ></a>
+
+    
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/salih-t-619835235/" target="_blank" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+    
+      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/salihtzc" target="_blank" role="button"   
+      > <i class="fab fa-github"></i></a>
+    </section>
+  
+  </div>
+
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright: 
+    <a class="text-white" href="#home" > Mehmet Salih Tuzcu</a>
+  </div>
+  
+</footer>
+
+
+<!-- footer end -->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous">
+
+    // $(".toast").toast('show');
+    </script>
+</body>
+</html>

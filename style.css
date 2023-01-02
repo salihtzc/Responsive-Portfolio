@@ -1,0 +1,23 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* #home {
+    min-height: 100vh ;
+} */
+
+.profiel {
+    border: none;
+    border-radius: 10%;
+    height: auto;
+    max-width: 100%;
+}
+
+/* .carousel-item {
+    max-height: 500px;
+} */
+
+.height1 {
+    height: 600px;
+}
